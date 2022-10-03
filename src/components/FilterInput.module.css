@@ -1,0 +1,49 @@
+.container {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 15px;
+}
+.searchContainer {
+  border: 0.5px solid lightgray;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.iconImg {
+  height: 20px;
+  width: 20px;
+}
+
+.iconShow {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.searchInput {
+  border: none;
+  min-width: 250px;
+}
+
+.reloadButton {
+  padding: 8px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  min-width: 70px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.reloadButton:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.searchInput:focus-visible {
+  outline: none;
+}

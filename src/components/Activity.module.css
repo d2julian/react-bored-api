@@ -1,0 +1,109 @@
+.box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px gray;
+  padding: 10px;
+  margin: 20px;
+  flex-basis: 380px;
+  border-top: 3px solid black;
+  gap: 10px;
+  height: 410px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.box:hover {
+  transform: scale(1.02);
+}
+
+.activityType {
+  border-radius: 50px;
+  font-size: 14px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: capitalize;
+}
+
+.charity {
+  background: teal;
+}
+
+.social {
+  background: khaki;
+}
+.cooking {
+  background: lightseagreen;
+}
+.music {
+  background: lightcoral;
+}
+.diy {
+  background: blueviolet;
+}
+.education {
+  background: burlywood;
+}
+.social {
+  background: khaki;
+}
+.busywork {
+  background: skyblue;
+}
+.recreational {
+  background: yellowgreen;
+}
+.relaxation {
+  background: darkgrey;
+}
+
+.activityContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.activityImg {
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.activityInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex-basis: max-content;
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+}
+
+.activityTag {
+  flex: 1;
+}
+
+.activityTag > label {
+  font-weight: 800;
+  color: black;
+}
+
+.activityIcon {
+  align-self: flex-end;
+}
+
+.activityIcon {
+  height: 32px;
+  width: 32px;
+}
+
+.participantIcon {
+  height: 15px;
+  width: 15px;
+}
